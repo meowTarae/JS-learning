@@ -1,0 +1,16 @@
+@import "reset.css";
+
+body {
+  background-color: antiquewhite;
+  position: relative;
+}
+.hello {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.hello h1 {
+  font-size: 20px;
+  font-weight: 600;
+}

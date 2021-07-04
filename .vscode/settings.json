@@ -1,0 +1,16 @@
+{ 
+    "powermode.enabled" : true , 
+        "powermode.enableStatusBarComboTimer" : false , 
+         "powermode.enableShake" : false , 
+        "powermode.customExplosions" : [ 
+            "https://i.imgur.com/iDcBoNm.gif" 
+        ] , 
+        " powermode.explosionOrder " : "sequential " , 
+        "powermode.explosionSize " : 12 , 
+        "powermode.explosionFrequency " : 1 , 
+        "powermode.maxExplosions " : 1 , 
+        "powermode.explosionOffset ": 0.315 ,
+        "powermode.gifMode" : "continue" , 
+        "powermode.explosionDuration" : 5000 , 
+        "powermode.backgroundMode" : "image" , 
+    }
