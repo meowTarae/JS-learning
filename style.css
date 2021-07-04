@@ -5,12 +5,22 @@ body {
   font-family: "Nanum Pen Script", cursive;
   font-family: "Fuggles", cursive;
   background-color: antiquewhite;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* height: 10px; */
 }
-.text {
-  margin: 100px;
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin: 1px;
+}
+
+.box div {
+  background-color: lightcyan;
+  width: 100px;
+  height: 100px;
+
   font-size: 70px;
   font-weight: 600;
 }
+/* 상자 센터로 보내자.... */
