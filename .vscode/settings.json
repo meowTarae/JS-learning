@@ -16,8 +16,9 @@
         "powermode.backgroundMode": "image",
         "powermode.enableStatusBarComboCounter": false,
         "powermode.explosionFrequency": 1,
-        "powermode.explosionOffset": -2,
+        "powermode.explosionOffset": -1,
         "powermode.maxExplosions": 0.1,
         "powermode.enableShake": false,
+        "powermode.enableExplosions": false,
         
-    }  s
+    }  
