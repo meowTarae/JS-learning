@@ -106,21 +106,24 @@
               }  
 
 
-
-          parseInt(age) = age값을 int로 변환
-
-          isnan(~)  -> number가 아니면 true, n이면 f
-
+          ! syntax 
+           parseInt(15) = 15라는 string값을 int로 변환
+           isnan(~)  -> number면 flase, 아니면 true
+ 
           
 
           ~console에 document치면 html 코드가 나온당
 
           
+          if (age === 100) {
+            ~~
+          } else if (true) {
+            ~~
+          }
+  
 
 
-
-
-
+ 
 
 
 
