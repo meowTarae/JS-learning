@@ -14,7 +14,16 @@ body {
   height: 100vh;
 }
 
-.box div {
+h1 {
+  padding-bottom: 150px;
   font-size: 70px;
   font-weight: 600;
+
+  color: whitesmoke;
+  text-shadow: -1px 0 royalblue, 0 1px royalblue, 1px 0 royalblue,
+    0 -1px royalblue;
+}
+
+.textBorderRed {
+  text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
 }
