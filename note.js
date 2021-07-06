@@ -142,17 +142,30 @@
           text.addEventListener("click", ifClick);
                                   -> click 시 ifClick함수가 실행되는거라 ()안붙인다.
 
+                                  
 
                                   
  
 
-         h1.classname = "A";               -> 
-         h1.classname = "";                -> 
-         h1.getElementByClassName = "A";   -> 
+         h1.classname = "A";               -> Class를 A로 지정
+         h1.classname = "";                -> Class를 제거
+         h1.getElementByClassName = "A";   -> Class가 A인 애를 호출
+         
+         
+         
+         
+         
+         
+         = 갯수관련
+          
+          = 1개    ->  값의 변경을 의미
+          === 3개    ->  좌/우가 같은지 확인
 
 
-
-
+          
+          
+         ~Toggle
+            classlsit.toggle()  -> 요소의 class가 있으면 제거, 없으면 생성을 해줌.
 
 
 
