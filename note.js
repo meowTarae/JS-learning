@@ -156,7 +156,7 @@
          
          
          
-         = 갯수관련
+         =의 갯수관련
           
           = 1개    ->  값의 변경을 의미
           === 3개    ->  좌/우가 같은지 확인
@@ -164,13 +164,36 @@
 
           
           
-         ~Toggle
-            classlsit.toggle()  -> 요소의 class가 있으면 제거, 없으면 생성을 해줌.
+         ~classList
 
+          console text = "~";  
+          
+          text.classList.toggle("요소");  -> 요소의 class가 있으면 제거, 없으면 생성을 해줌.          
+          text.classList.add("요소");  -> 요소의 class를 추가.
+        
 
+      
+         ~ 필기..
 
-
-
+          function ~~~(event){
+            evnet.preventDefault();
+          }
+          loginForm.addEvnetListener("submit", ~~~);
+              addEvnetListener에서의 func의 첫번째 argument인 event는 
+              방금 일어난 event에 대한 정보를 가지고 있음.
+              그리고 preventDefault라는 함수는 event 발생을 막아주는 함수이다.
+                                                                        
+                                     
+           
+                                     
+         ~ 글자 관련해서,
+          "Hello" + text + "!" 이러지 말고
+          `Hello ${text}!` 이렇게 하자.
+              
+              
+              
+         ~  
+          
 
 
 
