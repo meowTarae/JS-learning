@@ -172,16 +172,7 @@
           text.classList.add("요소");  -> 요소의 class를 추가.
         
 
-      
-         ~ 필기..
-
-          function ~~~(event){
-            evnet.preventDefault();
-          }
-          loginForm.addEvnetListener("submit", ~~~);
-              addEvnetListener에서의 func의 첫번째 argument인 event는 
-              방금 일어난 event에 대한 정보를 가지고 있음.
-              그리고 preventDefault라는 함수는 event 발생을 막아주는 함수이다.
+     
                                                                         
                                      
            
