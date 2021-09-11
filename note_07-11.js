@@ -17,7 +17,7 @@
   
   
   const name = "Bae";
-  const localMemory = localStorage.setItem("myName", name);
+  localStorage.setItem("myName", name);
    -> myName이라는 Key에 name값인 Bae라는 Value가 저장됨.
   
   const localMemory = localStorage.getItem("myName");
